@@ -1,0 +1,15 @@
+//Testes add
+//Teste adiciona no inicio - ok
+//Teste adiciona no fim - ok
+//Teste adiciona em qualquer posição - ok
+
+//Testes remove
+//Teste remove do começo - ok
+//Teste remove do fim - ok
+//Teste remove por posição - ok
+
+//Teste tamanho - ok
+
+//Teste pega por posição - ok
+
+//Teste verifica se existe na lista - ok

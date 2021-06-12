@@ -1,0 +1,29 @@
+-Testes add
+ -Teste adiciona no inicio - ok
+ -Teste adiciona no fim - ok
+ -Teste adiciona em qualquer posição - ok
+
+-Testes remove
+ -Teste remove do começo - ok
+ -Teste remove do fim - ok
+ -Teste remove por posição - ok
+
+-Teste tamanho - ok
+
+-Teste pega por posição - ok
+
+-Teste verifica se existe na lista - ok
+
+
+-Teste de tempo Vetor vs Lista Ligada
+Adicionando no inicio
+Vetor adiciona no começo: 0.078
+Lista ligada adiciona no começo: 0.005
+
+Percorrendo elementos
+Vetor percorrendo: 0.002
+Lista ligada percorrendo: 0.838
+
+Removendo do inicio
+Vetor removendo inicio: 0.059
+Lista ligada removendo inicio: 0.003

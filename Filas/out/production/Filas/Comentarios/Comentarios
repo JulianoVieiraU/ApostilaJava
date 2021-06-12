@@ -1,0 +1,47 @@
+Exercicio 4
+O exercicio pede para tentar implementar uma Fila
+com ArrayList ao inves de LinkedList, é possivel
+implementar.
+Existem algumas diferenças:
+
+-Adicionando:
+    Adiconar elementos notasse uma pequena diferença
+    entre as duas implementações, onde o ArrayList
+    leva vantagem, como o ArrayList sempre sabe o
+    tamanho da lista, acaba se tornando mais rapido
+    de adicionar, pois a Fila sempre adicona na ultima
+    posição e como na ultima posição o ArrayList nao
+    precisa executar nenhuma outra tarefa a nao ser adicionar
+    acaba se tornando mais rapido.
+    Ja a LinkedList precisa alterar as refencias de ultimo, anterior
+    e proximo, por isso uma leve perda de tempo.
+
+-Remover
+    Porem para remover elementos a diferença é muito grande,
+    onde a LinkedList leva muita vantagem, pois
+    precisa apenas acessar o indice, removelo e alterar as
+    referencias de proximo e anterior. Ja o Arraylist perde
+    muito tempo, como na Fila a retirada é sempre pela primeira
+    posição, o ArrayList precisa retirar esta posição, acessar
+    todas as outras e decrementar seus indices, isso se torna
+    um processo cada vez mais demorado uma vez que a Fila
+    fica maior.
+
+-Diferenças de tempo com 10000 posições
+Diferença de tempo adicionando elementos
+    Tempo adicionar Fila com LinkedList: 0.002
+    Tempo adicionar Fila com ArrayList: 0.001
+
+    Diferença de tempo removendo elementos
+    Tempo remover Fila com LinkedList: 0.001
+    Tempo remover Fila com ArrayList: 0.004
+
+-Diferenças de tempo com 100000 posições
+
+Diferença de tempo adicionando elementos
+    Tempo adicionar Fila com LinkedList: 0.008
+    Tempo adicionar Fila com ArrayList: 0.002
+
+    Diferença de tempo removendo elementos
+    Tempo remover Fila com LinkedList: 0.003
+    Tempo remover Fila com ArrayList: 0.414

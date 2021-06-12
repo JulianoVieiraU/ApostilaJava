@@ -1,0 +1,11 @@
+Exercicio 5
+
+Tanto para remover do inicio quanto para adicionar no inicio
+a LinkedList tem melhor consumo de tempo do que ArrayList,
+uma vez que a lista encadeado precisa somente alterar as refencias
+de primeiro e ultimo no caso de inserção ou remoção e o Array, precisa
+pegar todos os elementos da lista e passar um indice para a frente
+se for adicionar no inicio ou colocar um indice para tras se for
+remover do inicio, levando muito mais tempo, uma vez que precisa
+percorrer todos os elementos.
+
